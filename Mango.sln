@@ -15,11 +15,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mango.Services.CouponAPI", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mango.Web", "Mango.Web\Mango.Web.csproj", "{91DC3389-9462-4CAB-84AF-DD467B4BDB8A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Models", "Models", "{81BE27BA-E8D1-4A66-9F40-31EC5AB67A5F}"
-	ProjectSection(SolutionItems) = preProject
-		Mango.Services.CouponAPI\Models\ResponseDto.cs = Mango.Services.CouponAPI\Models\ResponseDto.cs
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -41,7 +36,6 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{46B7F75D-56ED-4D00-93E9-523B60AA0591} = {CCA72B01-FF38-4470-BD5B-8FE43516CB66}
 		{91DC3389-9462-4CAB-84AF-DD467B4BDB8A} = {9C8D981B-413D-4BD3-A28A-2D3BCF437244}
-		{81BE27BA-E8D1-4A66-9F40-31EC5AB67A5F} = {9C8D981B-413D-4BD3-A28A-2D3BCF437244}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {FE46074C-C375-4EA0-BF67-415769CD3087}
